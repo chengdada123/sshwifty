@@ -56,23 +56,7 @@
         @clear-session="clearSessionKnown"
       ></connect-known>
 
-      <div id="connect-warning">
-        <span id="connect-warning-icon" class="icon icon-warning1"></span>
-        <div id="connect-warning-msg">
-          <p>
-            <strong>An insecured service may steal your secrets.</strong>
-            Always exam the safety of the service before using it.
-          </p>
 
-          <p>
-            Sshwifty is a free software, you can deploy it on your own trusted
-            infrastructure.
-            <a href="https://github.com/nirui/sshwifty" target="_blank"
-              >Learn more</a
-            >
-          </p>
-        </div>
-      </div>
 
       <div v-if="busy" id="connect-busy-overlay"></div>
     </div>
