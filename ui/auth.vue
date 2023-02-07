@@ -44,14 +44,7 @@
                 autofocus="autofocus"
               />
 
-              <div
-                v-if="passphraseErr.length <= 0 && error.length <= 0"
-                class="message"
-              >
-                A valid password is required in order to use this
-                <a href="https://github.com/nirui/sshwifty">Sshwifty</a>
-                instance
-              </div>
+
               <div v-else class="error">
                 {{ passphraseErr || error }}
               </div>
