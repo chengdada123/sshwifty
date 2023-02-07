@@ -67,7 +67,22 @@
       @info="tabInfo"
       @updated="tabUpdated"
     >
-
+<div id="home-content-wrap">
+        <h1>
+              <a
+        id="home-hd-plus"
+        class="icon icon-plus1"
+        href="javascript:;"
+        :class="{
+          working: connector.inputting,
+          intensify: connector.inputting && !windows.connect,
+        }"
+        @click="showConnectWindow"
+      ></a>
+        
+        
+        </h1>
+      </div>
     </screens>
 
     <connect-widget
