@@ -67,7 +67,33 @@
       @info="tabInfo"
       @updated="tabUpdated"
     >
+    
+<style>
+        .container {
+            width: 60%;
+            margin: 10% auto 0;
+            background-color: #f0f0f0;
+            padding: 2% 5%;
+            border-radius: 10px
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+            ul li {
+                line-height: 2.3
+            }
+
+        a {
+            color: #20a53a
+        }
+    </style>   
 <div id="home-content-wrap">
+<div class="container">
+        <h1>科技创造美好生活</h1>
+        
+    </div>
         <h1>
               <a
         id="home-hd-plus"
