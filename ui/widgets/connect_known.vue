@@ -118,12 +118,7 @@
       </div>
     </div>
 
-    <div id="connect-known-list-import">
-      Tip: You can
-      <a href="javascript:;" @click="importHosts">import</a> and
-      <a href="javascript:;" @click="exportHosts">export</a>
-      known remotes from and to a file.
-    </div>
+    
   </div>
 </template>
 
