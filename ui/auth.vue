@@ -21,7 +21,7 @@
   <div id="auth">
     <div id="auth-frame">
       <div id="auth-content">
-        <h1>Authentication required</h1>
+        <h1>身份验证</h1>
 
         <form class="form1" action="javascript:;" method="POST" @submit="auth">
           <fieldset>
@@ -31,7 +31,7 @@
                 error: passphraseErr.length > 0 || error.length > 0,
               }"
             >
-              Passphrase
+             输入密码
 
               <input
                 v-model="passphrase"
@@ -40,7 +40,7 @@
                 type="password"
                 autocomplete="off"
                 name="field.field.name"
-                placeholder="----------"
+                placeholder=""
                 autofocus="autofocus"
               />
 
@@ -52,7 +52,7 @@
 
             <div class="field">
               <button type="submit" :disabled="submitting" @click="auth">
-                Authenticate
+                验证
               </button>
             </div>
           </fieldset>
