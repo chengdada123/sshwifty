@@ -91,7 +91,7 @@
     </style>   
 <div id="home-content-wrap">
 <div class="container">
-        <h1>科技创造美好生活</h1>
+        <h1>点击+号开始</h1>
         
     </div>
         <h1>
